@@ -8,10 +8,12 @@ layout: default
 
   {% include about/header.html %}
 
+  <div id="break"></div>
+
   <!-- Publication Section -->
-  {% if site.publications.size > 0 %}
+  <!-- {% if site.publications.size > 0 %}
     {% include about/publications.html %}
-  {% endif %}
+  {% endif %} -->
 
   <!-- Experience Section -->
   {% if site.experiences.size > 0 %}
@@ -29,4 +31,19 @@ layout: default
       {{ about_other | markdownify }}
     </div>
   </div>
+
+  <div class="headertop-down faa-float animated">
+    <a onclick="smoothTo('#break')">
+      <i class="fas fa-chevron-down" ></i>
+    </a>
+  </div>
+
+  <script>
+    // fade out while scrolling
+    $(window).scroll(function(){
+      $(".img-prev, .img-next, .headertop-down, .header-avatar, .header-bubble, .header-info").css({
+        "opacity": 1 - $(this).scrollTop() * 1.2 / $(this).height(),
+      })
+    })
+  </script>
 </div>

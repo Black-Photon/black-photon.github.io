@@ -59,7 +59,7 @@ description: Hmm, interesting blog. # 描述
 keyword: "blog, personal website" # 关键词
 url: "https://renovamen.ink" # 域名
 baseurl: "" # 根路径。比如网站地址为 'https://renovamen.ink/blog'，则该项应为 '/blog'
-avatar: "img/header-avatar.jpeg" # 首页头像路径
+avatar: "img/header-avatar.png" # 首页头像路径
 ```
 
 ### 主题风格

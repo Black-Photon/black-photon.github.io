@@ -8,9 +8,11 @@
       <ul class="timeline">
         {% for exp in site.experiences %}
         <li >
+          {% if exp.img != "none" %}
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="{{ _assets_baseurl }}/{{ exp.img }}">
           </div>
+          {% endif %}
           <div class="timeline-panel">
             <div class="timeline-heading">
               <p class="time">{{ exp.time }}</p>

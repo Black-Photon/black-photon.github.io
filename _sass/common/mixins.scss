@@ -1,5 +1,15 @@
 // Mixins
 
+@font-face {
+  font-family: shantell_sans;
+  src: url(../fonts/Shantell_Sans/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf);
+}
+
+@font-face {
+  font-family: caveat;
+  src: url(../fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
 @mixin background-cover() {
   -webkit-background-size: cover;
   -moz-background-size: cover;

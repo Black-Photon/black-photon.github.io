@@ -58,7 +58,7 @@ description: Hmm, interesting blog. # description of your site
 keyword: "blog, personal website" # keywords of your site
 url: "https://renovamen.ink" # URL of your site
 baseurl: "" # Base URL of your site. If you site is hosted on 'https://renovamen.ink/blog', it should be '/blog'
-avatar: "img/header-avatar.jpeg" # path of the avatar showing on home page
+avatar: "img/header-avatar.png" # path of the avatar showing on home page
 ```
 
 ### Theme Style

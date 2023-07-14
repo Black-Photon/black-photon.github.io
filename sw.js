@@ -18,7 +18,7 @@ const PRECACHE_LIST = [
   "./js/gungnir/gungnir.min.js",
   "./js/gungnir/snackbar.js",
   "./css/gungnir.css",
-  "//cdn.jsdelivr.net/gh/Renovamen/jekyll-theme-gungnir@master/img/header-avatar.jpeg",
+  "//cdn.jsdelivr.net/gh/Renovamen/jekyll-theme-gungnir@master/img/header-avatar.png",
   "//cdn.jsdelivr.net/gh/Renovamen/jekyll-theme-gungnir@master/img/home-bg/1.jpg",
   "//cdn.jsdelivr.net/gh/Renovamen/jekyll-theme-gungnir@master/js/lib.min.js",
   // "//cdn.jsdelivr.net/npm/bootstrap@3.3.2/dist/css/bootstrap.min.css",

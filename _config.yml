@@ -1,15 +1,15 @@
 # Site settings
-title: Gungnir
-SEOTitle: Jekyll theme Gungnir
-description: Jekyll version of the blog theme Gungnir.
-keyword: "jekyll, theme, blog, blog theme"
-url: "https://jekyll-theme-gungnir.vercel.app"      # your host, for absolute URL
+title: Joseph Keane
+SEOTitle: Joseph's Blog
+description: A blog about computer graphics and other nonsense
+keyword: "graphics, blog, joseph keane, black-photon"
+url: "http://127.0.0.1:4000"      # your host, for absolute URL
 baseurl: ""                                         # for example, '/blog' if your blog hosted on 'host/blog'
-avatar: "img/header-avatar.jpeg"                    # the avatar showing on the homepage
+avatar: "img/header-avatar.png"                     # the avatar showing on the homepage
 
 
 # GitHub repository (if the site is hosted by GitHub)
-repository: Renovamen/jekyll-theme-gungnir
+repository: Black-Photon/Blog
 repository_branch: main
 
 
@@ -46,21 +46,16 @@ collections:
   experiences:
     output: true
   publications:
-    output: true
+    output: false
   projects:
     output: true
 
 
 # SNS settings
 sns:
-  RSS: true
-  github_username: Renovamen
-  weibo_username:
-  zhihu_username: chao-neng-gui-su
-  twitter_username: renovamen_zxh
-  facebook_username: renovamen.zou
-  linkedin_username: xiaohan-zou-55bba0160
-  email_address: renovamenzxh@gmail.com
+  github_username: Black-Photon
+  linkedin_username: joseph-keane-22256a19a
+  email_address: website@joseph-keane.slmail.me
 
 
 # Build settings
@@ -104,20 +99,11 @@ menus:
     font: fab fa-fort-awesome
     url: /
   - title: About
-    font: fas fa-paw
-    submenus:
-      - title: Me
-        font: fas fa-user-astronaut
-        url: /about/
-      - title: Theme
-        font: fas fa-meteor
-        url: /theme/
+    font: fas fa-user-astronaut
+    url: /about/
   - title: Archive
     font: fas fa-archive
     url: /archive/
-  - title: Links
-    font: fas fa-link
-    url: /links/
 
 
 # Comment settings
@@ -125,18 +111,16 @@ comment:
   provider: gitalk # false (default), "disqus", "gitalk", "valine"
 
   # Disqus settings
-  disqus_username: renovamen
+  disqus_username: blackphotons
 
   # Gitalk settings
   # https://github.com/gitalk/gitalk
   gitalk:
-    clientID: 'faf464da633b08ff5317'
-    clientSecret: '402324fc860894e5fcba6320fddbddd1ec7f5644'
-    repo: gitalk-comments
-    owner: This-is-an-Apple
-    admin:
-      - Renovamen
-      - This-is-an-Apple
+    clientID: '22ecd50e87fe42eb760e'
+    clientSecret: 'fa9aa83ea2118061e0b69c287af7bdb54253bf91'
+    repo: blog-comments
+    owner: Black-Photon
+    admin: [Black-Photon]
 
   # Valine settings
   # https://valine.js.org/
@@ -160,4 +144,20 @@ service-worker: true
 
 
 # Whether or not to enable Hitokoto (the bubble on homepage)
-hitokoto: true # default: false
+hitokoto: false # default: false
+
+# Ordering of projects/experiences
+collections:
+  projects:
+    order:
+      - metro.md
+      - tellas.md
+      - aedmun.md
+      - jOSeph.md
+      - other.md
+    output: true
+  experiences:
+    order:
+      - arm-modelling.md
+      - arm-client.md
+      - warwick.md
