@@ -44,10 +44,20 @@ future: true
 
 collections:
   experiences:
+    order:
+      - arm-modelling.md
+      - arm-client.md
+      - warwick.md
     output: true
   publications:
     output: false
   projects:
+    order:
+      - metro.md
+      - tellas.md
+      - aedmun.md
+      - jOSeph.md
+      - other.md
     output: true
 
 
@@ -148,19 +158,3 @@ service-worker: true
 
 # Whether or not to enable Hitokoto (the bubble on homepage)
 hitokoto: false # default: false
-
-# Ordering of projects/experiences
-collections:
-  projects:
-    order:
-      - metro.md
-      - tellas.md
-      - aedmun.md
-      - jOSeph.md
-      - other.md
-    output: true
-  experiences:
-    order:
-      - arm-modelling.md
-      - arm-client.md
-      - warwick.md

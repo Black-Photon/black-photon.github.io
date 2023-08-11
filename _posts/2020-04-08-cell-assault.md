@@ -12,8 +12,6 @@ tags:
 
 Recently we had a 72 hour Warwick Game Design Game Jam for during the Coronavirus pandemic. I decided to make a game on the theme of disease.
 
-<!--more-->
-
 Most of my experience with Unity was doing basic UI additions to games others have made, whereas this time I wanted to program it myself. I started with the idea that it would be a strategy game where you had different types of infection come, and you had to control which white blood cells to send in to stop them.
 
 I did some basic research, and decided a good start would be bacteria and Neutrophils, a type of WBC that can swallow bacteria. Then I got to making the game.
