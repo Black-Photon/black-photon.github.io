@@ -1,17 +1,14 @@
 ---
-layout: page
-subheadline: "Thoughts and Theories"
+layout: post
 title: "Distraction"
-teaser: "There's always something more important that'll distract you from your task"
-header: no
-categories:
+subtitle: "There's always something more important that'll distract you from your task"
+header-img: img/in-post/thinking.jpg
+header-style: text
+tags:
     - ideas
-comments: true
 ---
 
 I’ve recently thought, you could be in a fight to the death, but if the world is suddenly about to explode, they’d work together to stop it.
-
-<!--more-->
 
 For any argument, disagreement or anything really, there will be something bigger which will make them work together to fix it.
 

@@ -1,18 +1,11 @@
 ---
-layout: page
-subheadline: "Stories"
+layout: post
 title: "The Rising"
-teaser: "In some spare time, I've been working on writing, and here are some of the results."
-header:
-    image_fullwidth: "rising.png"
-    caption: Image by Joseph
-    caption_url: "https://www.worldanvil.com/w/eylaisia-black-photon"
-image:
-    thumb:  rising.png
-    homepage: rising.png
-categories:
+subtitle: "In some spare time, I've been working on writing, and here are some of the results."
+header-img: img/in-post/rising.png
+header-style: text
+tags:
     - stories
-comments: true
 ---
 *This is a story I started working on and thought I’d publish the first chapter here as it’ll likely never be finished.*
 

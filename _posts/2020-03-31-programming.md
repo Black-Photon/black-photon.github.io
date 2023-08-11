@@ -1,17 +1,11 @@
 ---
-layout: page
-subheadline: "Programming Projects"
-title: "Programming Language of the Month"
-teaser: "A new idea for a way to expand the breadth of my knowledge of programming languages"
-header:
-    image_fullwidth: "jni.png"
-    caption: Image from Joseph
-image:
-    thumb:  bind.png
-    homepage: jni.png
-categories:
+layout: post
+title: Programming Language of the Month
+subtitle: A new idea for a way to expand the breadth of my knowledge of programming languages
+header-img: img/in-post/bind.png
+header-style: text
+tags:
     - programming
-comments: true
 ---
 
 There are lots of programming languages out there, often each with their own niche and methods of doing things. I've learned so much from each language I've been exposed to, that it seems useful to learn more. Thus an idea - learn one lanaguage each month.

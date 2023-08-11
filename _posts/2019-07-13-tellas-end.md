@@ -1,27 +1,18 @@
 ---
-layout: page
-subheadline: "Programming Projects"
+layout: post
 title: "Tellas: The Conclusion"
-teaser: "The final report on Tellas and the features added and considered since the initial post."
-header:
-    image_fullwidth: "tellas.png"
-    caption: Image by Joseph
-image:
-    thumb:  tellas.png
-    homepage: tellas.png
-categories:
-    - programming
+subtitle: "The final report on Tellas and the features added and considered since the initial post."
+header-img: img/in-post/tellas.png
+header-style: invert
 tags:
+    - programming
     - OpenGL
     - games
     - scala
     - c++
-comments: true
 ---
 
 It has been a good, and slightly shorter than expected, journey, but I’m probably going to leave Tellas here for now. It’s taught me how to make a working OpenGL application and use Scala, but it’s at the point it’s not got much left to teach me. So alas it must be let go.
-
-<!--more-->
 
 ![alt text](https://black-photon.github.io/images/tellas-sharp.png "A view of Tellas in the last version")
 

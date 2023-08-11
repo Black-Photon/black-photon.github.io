@@ -1,20 +1,13 @@
 ---
-layout: page
-subheadline: "Programming Projects"
-title: "Cell Assault"
-teaser: "A game about battling infection in the body"
-header:
-    image_fullwidth: "cells-header.png"
-    caption: Image from Joseph
-image:
-    thumb:  cells-thumb.png
-    homepage: cells.png
-categories:
-    - programming
+layout: post
+title: Cell Assault
+subtitle: A game about battling infection in the body
+header-img: img/in-post/cells-thumb.png
+header-style: text
 tags:
+    - programming
     - games
     - unity
-comments: true
 ---
 
 Recently we had a 72 hour Warwick Game Design Game Jam for during the Coronavirus pandemic. I decided to make a game on the theme of disease.

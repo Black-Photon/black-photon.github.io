@@ -1,11 +1,11 @@
 ---
-layout: page
-subheadline:  "Stories"
+layout: post
 title:  "Personality"
-teaser: "I had an idea for a way to embody parts of my personality into a short story"
-categories:
+subtitle: "I had an idea for a way to embody parts of my personality into a short story"
+header-img: img/in-post/thinking.jpg
+header-style: text
+tags:
     - ideas
-header: no
 ---
 
 I’m walking. Stars watch from the nights sky, and all is silent but for a shiver behind a rock. I ready my sword, approaching the stone. I consider what it could be. Somebody just cold, maybe an enemy. Or perhaps it could be my future self, frozen in time. I reach the rock, and look behind.
