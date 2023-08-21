@@ -10,7 +10,7 @@ header-img: img/projects/tellas.png
 
 I was interested in how games are made from scratch, as well as how 3D models can be rendered at all. So I started looking into OpenGL. After a while I thought I understood enough to try making a project in it, so I decided to make a Minecraft clone. I had been finding out about Scala for the first time then too, and thought it'd be a good chance to learn both at the same time, using C++ and OpenGL for the technical bits, and then working with an abstracted model in the Scala, interacting with the internals via JNI. Overall it turned out well, as you can see in this image:
 
-![alt text](https://black-photon.github.io/images/tellas-sharp.png "A screenshot of the final version of Tellas")
+![alt text](/img/in-post/tellas-sharp.png "A screenshot of the final version of Tellas")
 
 Once done, the mechanics of the game included:
  - Multiple Blocks with different textures

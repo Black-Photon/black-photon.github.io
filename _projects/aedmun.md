@@ -12,7 +12,7 @@ While working on jOSeph, I inexplicably created a very basic clicker game. Once 
 However, I believe it turned out well, also including a tutorial to help you get started. You can see it here:
 
 <center>
-   <img src="https://black-photon.github.io/images/aedmun.jpg" title="A screenshot of the final version of Aedmun" width="300"/>
+   <img src="/img/in-post/aedmun.jpg" title="A screenshot of the final version of Aedmun" width="300"/>
 </center>
 
 The concept is you need to get enough food and building for the population. If you have enough, it increases. This costs resources you can also get by clicking. Buildings are restricted by era, which you can increase by getting a monument. The final game runs on Desktop or android, and is available on my GitHub [here](https://github.com/Black-Photon/Aedmun)

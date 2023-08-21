@@ -17,7 +17,7 @@ Last weekend, Warwick Game Design had another Game Jam, this one being 48 hours 
 Our general idea was that Hackers are attacking your computer, and you need to put up the firewalls to stop their connection. However, the hackers are making getting to the firewall very difficult, and you need to fight your way across the desktop to save your computer.
 
 We started by simply making a desktop. I worked on the start menu while Joseph worked on making the enemies. We soon had a basic game, made up of a player, antiviruses to shoot at the viruses, and a firewall to stop the enemy. This is the game near the end of the Saturday:
-![alt text](https://black-photon.github.io/images/hacker-hell-early.png "Gameplay from the halfway through")
+![alt text](/img/in-post/hacker-hell-early.png "Gameplay from the halfway through")
 
 Joseph has more experience than me in Unity, so he created the initial scripts, and suggested ideas for implementing the rest. We ended up by having triggers on all the buttons to send a signal to the master script to say what button the mouse is over. Then, that corresponding button's action is activated by assigning a function to which processes this to the OnClick of the player. This meant we were able to easily allow clicking on any button and correctly process it.
 
@@ -26,7 +26,7 @@ Later, I started on textures, creating some for the start icons, the fire in the
 Finally, after Joseph created the window for viruses, I modified it to also work for the firewall, and added used a public list variable in the scripts to let us change the messages inside the Unity UI. I also finished by messing around with particles, to make the portals look better.
 
 Then Joseph did a massive amount of polish, creating the last few textures, and adding a start screen, end screen, bottom right utility bar and a sensitivity option. You can see the result here:
-![alt text](https://black-photon.github.io/images/hacker-hell-game.png "Gameplay from the final game")
+![alt text](/img/in-post/hacker-hell-game.png "Gameplay from the final game")
 
 Overall it was an enjoyable experience, and helped me learn a little more about how to use Unity. I also came across some issues during production, requiring me to restart Unity many times over to clear various bugs. But the final game both looked good, and is enjoyable, yet challenging, as well as fitting the theme of connections. While unsure about the idea at first, it's clear it worked out in the end.
 

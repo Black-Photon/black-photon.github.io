@@ -14,7 +14,7 @@ tags:
 
 It has been a good, and slightly shorter than expected, journey, but I’m probably going to leave Tellas here for now. It’s taught me how to make a working OpenGL application and use Scala, but it’s at the point it’s not got much left to teach me. So alas it must be let go.
 
-![alt text](https://black-photon.github.io/images/tellas-sharp.png "A view of Tellas in the last version")
+![alt text](/img/in-post/tellas-sharp.png "A view of Tellas in the last version")
 
 Since the last post, I’ve added many features visible in the image.
 

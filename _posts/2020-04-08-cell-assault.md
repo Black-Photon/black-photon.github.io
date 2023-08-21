@@ -35,7 +35,7 @@ There wasn't a lot of time for anything complex, so my idea was to see how far I
 The bacteria would give -5 points if they reach the end, but also had a chance to infect RBC's. This would turn them from +1 point to -1 point. If you get to < 0 points, you lose. This means as long as the bacteria infect more than half the red blood cells, you quickly start losing all your points. You also need to be careful you don't instantly die from purchasing an upgrade. This balances as bacteria rarely reach the end, and adds a drawback to getting red blood cells - they can help and defeat you.
 
 This created a final game I was pretty happy with:
-![alt text](https://black-photon.github.io/images/cells-gameplay.png "Gameplay from the final release")
+![alt text](/img/in-post/cells-gameplay.png "Gameplay from the final release")
 
 This had some final issues; You could have a white blood cell camp the entrance to stop the bacteria as they spawn. In addition, as you get too many cells, they can often form blood clots, where the WBC's are trying to get to the start, pushing back the RBC's, and the RBC's are on the wrong path, and trying to move backwards to their chosen goal. However, this also adds some fun to the game. It sometimes happens that the board gets completely filled, and some are even pushed out into the Tilemap.
 

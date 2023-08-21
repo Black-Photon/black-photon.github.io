@@ -27,7 +27,7 @@ I successfully implemented the outline, and posted about it on my blog [here](ht
 ## Reflection
 For the Warwick Game Design gamejam of 2019, I worked with Michael and (another) Joseph. I worked on particle effects while Michael did art and Joseph made the core game. Eventually we got something we were happy with - a two-player game where you are either the light or dark character, the dark character representing darkness and trying to get the death fragments, while light tries to stop them. You can find the final game [here](https://joseph28.itch.io/reflection) on itch.io.
 
-![alt text](https://black-photon.github.io/images/reflection.png "A screenshot of the game")
+![alt text](/img/in-post/reflection.png "A screenshot of the game")
 
 ## MASS
 During Hack the Midlands 4.0, Michael and I wanted to expand on Metro. Metro as an idea originally came about as a plan for the Hackathon, but eventually we went in with the plan of instead creating a GUI that runs Metro. While talking to the sponsers however, one provided a technology for natural language processing, and we decided to instead make MASS - the Metro ASSistant. The idea is this program has a console, and you tell it what you're trying to do with git. It works out what that is, then executes the command, telling you what the actual command is. The idea is that as a result, you'll be able to learn how to use things on git, and accomplish tasks that'd normally be difficult.
@@ -37,7 +37,7 @@ You can find our submission [here](https://devpost.com/software/git-assistant).
 ## Cell Assault
 During the 2020 Coronavirus Pandemic, Warwick Game Design did a long-distance Game Jam, in which I decided to join in. I created a game where you control the number of cells in your body to fight of infection, and ended up with a game where the bugs and getting to the limits of the game was more fun than the intended gameplay. You can find and download it over [here](https://itch.io/jam/wgd-2019-20-games/rate/604650), and wrote a blog post on it over [here](https://black-photon.github.io/programming/cell-assault/)
 
-![alt text](https://black-photon.github.io/images/cells-gameplay.png "Gameplay Example")
+![alt text](/img/in-post/cells-gameplay.png "Gameplay Example")
 
 ## Hacker Hell
 The second Game Jam game of the pandemic, I worked alongside a friend also called Joseph to create a game with the theme Connections, where your comuter has been compromised by hackers, and you need to put up the firewalls to stop them. You can find and download it over [here](https://itch.io/jam/wgd-2019-20-games/rate/677595), and wrote a blog post on it over [here](https://black-photon.github.io/programming/hacker-hell/)
