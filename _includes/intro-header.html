@@ -9,11 +9,20 @@
 {% if include.type == 'post' or include.type == 'page' %}
 {% if page.homepage != true %}
 <style type="text/css">
+  {% if page.page-style != "plain" %}
   header.intro-header{
     position: relative;
     background-image: url('{{ _assets_baseurl }}/{{ page.header-img }}');
     background: {{ page.header-bg-css }};
   }
+  {% else %}
+  header.intro-header{
+    height: 30vh;
+    position: relative;
+    background-color: #0000;
+    background: {{ page.header-bg-css }};
+  }
+  {% endif %}
 
   {% if page.header-mask %}
   header.intro-header .header-mask{
@@ -21,6 +30,14 @@
     height: 100%;
     position: absolute;
     background: {{ page.header-mask }};
+  }
+  {% endif %}
+  {% if page.header-style == "text" %}
+  header.intro-header
+  .site-heading,
+  .post-heading,
+  .page-heading {
+    color: var(--body-color);
   }
   {% endif %}
 </style>

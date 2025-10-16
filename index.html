@@ -5,6 +5,11 @@ title: Joseph Keane
 description: A Graphics Engineer exploring the world<br> one pixel at a time...
 header-img:
   - url: img/home-bg/forest.png
+pagination:
+  enabled: true
+  per_page: 10
+  sort_reverse: true
+  title: :title
 ---
 
 {%- include utils/get-assets-baseurl.html -%}
@@ -18,7 +23,7 @@ header-img:
       Renoamen: support displaying images on homepage
       Borrowed a lot from: https://github.com/Fechin/hexo-theme-diaspora
     -->
-    {% if site.theme_style.post_preview != "text" %}
+    {% if site.theme_style.post_preview != "text" and post.header-img != nil %}
     <div class="post-preview-img">
       <a href="{{ post.url | prepend: site.baseurl }}">
           <img src="{{ _assets_baseurl }}/{{ post.header-img }}" class="cover">
@@ -63,7 +68,7 @@ header-img:
         </div>
       </a>
       <p class="post-meta">
-        Posted by abc {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
       </p>
     </div>
     <hr>

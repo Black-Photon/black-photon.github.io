@@ -59,6 +59,8 @@ collections:
       - jOSeph.md
       - other.md
     output: true
+  politics:
+    output: true
 
 
 # SNS settings
@@ -72,7 +74,8 @@ sns:
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 # highlighter: rouge
 permalink: pretty
-paginate: 10
+pagination:
+  enabled: true
 exclude:
   - package.json
   - package-lock.json
@@ -91,7 +94,7 @@ anchorjs: true  # if you want to customize anchor. check out `anchor.html`
 # Gems
 # you have to `bundle config set path 'vendor/bundle' && bundle install` before local preview
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jemoji
 
 
@@ -114,6 +117,9 @@ menus:
   - title: Projects
     font: fas fa-book
     url: /projects/
+  - title: Politics
+    font: fas fa-globe
+    url: /politics/
   - title: Archive
     font: fas fa-archive
     url: /archive/
