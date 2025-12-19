@@ -1,0 +1,95 @@
+---
+layout: page
+title: Delivery
+header-img: img/transport_wide.png
+hide-in-nav: true
+permalink: /delivery.html
+---
+
+<div class="delivery-container">
+  <div class="delivery-page-header">
+    <h2 class="delivery-page-title">Your delivery is on its way!</h2>
+    <p class="delivery-page-subtitle">
+      Our driver will be with you with your package some time in the hour window provided.
+    </p>
+  </div>
+
+  <div class="delivery-status-banner">
+    📦 Driver is currently at the depot - we'll update the page once they're on the road
+  </div>
+
+  <div class="delivery-card">
+    <div class="delivery-card-header">
+      <h3 class="delivery-title">Your Delivery Window</h3>
+    </div>
+  
+    <div class="delivery-body">
+      <p class="delivery-text">
+        Estimated arrival between:
+      </p>
+      <div class="delivery-time-window">
+        <span class="time">5:43</span>
+        <span class="dash">—</span>
+        <span class="time">6:43</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress-wrapper">
+    <div class="progress-bar"></div>
+  </div>
+
+  <div class="map-placeholder"></div>
+
+  <ul class="delivery-meta">
+    <li><strong>Order:</strong> #842193</li>
+    <li><strong>Courier:</strong> J. Keane</li>
+    <li><strong>Package:</strong> Medium parcel</li>
+  </ul>
+</div>
+
+<div class="delivery-footer">
+    <p>To change your allocated time, please respond to our delivery update message</p>
+    <p>Thank you for using our delivery service!</p>
+  </div>
+  
+
+<style>
+  /* Responsive base scaling */
+  html { font-size: clamp(14px, 1.2vw, 16px); }
+  .delivery-container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem 3rem; font-family: inherit; }
+  .delivery-page-header { margin-bottom: 1.5rem; }
+  .delivery-page-title { margin: 0 0 0.25rem; font-size: 2.2rem; font-weight: 600; color: #333; }
+  .delivery-page-subtitle { margin: 0; font-size: 1.1rem; color: #666; }
+  .delivery-status-banner {
+    background: #fff9db; /* soft yellow */
+    border-left: 4px solid #f4c430; /* strong yellow accent */
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    color: #7a6400; /* readable yellow-tone text */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .delivery-card { border: 1px solid #e2e2e2; border-radius: 8px; padding: 1.5rem; max-width: 600px; width: 100%; background: #ffffff; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+  .delivery-card-header { margin-bottom: 0.75rem; border-bottom: 1px solid #f0f0f0; padding-bottom: 0.5rem; }
+  .delivery-title { margin: 0; font-size: 1.5rem; font-weight: 600; color: #333; }
+  .delivery-body { margin-top: 0.5rem; }
+  .delivery-text { margin: 0 0 0.5rem; font-size: 1.2rem; color: #555; }
+  .delivery-time-window { display: flex; align-items: center; gap: 0.4rem; font-size: 1.8rem; font-weight: 600; color: #1a1a1a; }
+  .delivery-time-window .time { padding: 0.25rem 0.6rem; background: #f7f7f7; border-radius: 6px; border: 1px solid #e4e4e4; }
+  .delivery-time-window .dash { opacity: 0.7; }
+  .progress-wrapper { width: 100%; height: 14px; background: #eee; border-radius: 7px; margin: 1.5rem 0; overflow: hidden; }
+  .progress-bar { width: 10%; height: 100%; background: #f4c430; transition: width 0.3s ease; }
+  .map-placeholder { width: 100%; height: min(40vw, 300px); background: url('/img/map.png') center/cover no-repeat; border-radius: 8px; margin: 1.5rem 0; }
+  .delivery-meta { list-style: none; padding: 0; margin: 1rem 0; font-size: 1.1rem; color: #555; }
+  .delivery-meta li { padding: 0.35rem 0; }
+  .delivery-footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+  }
+</style>
