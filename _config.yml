@@ -117,9 +117,6 @@ menus:
   - title: Projects
     font: fas fa-book
     url: /projects/
-  - title: Politics
-    font: fas fa-globe
-    url: /politics/
   - title: Archive
     font: fas fa-archive
     url: /archive/
